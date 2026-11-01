@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # ==================== НАСТРОЙКИ (измените при необходимости) ====================
-VPN_NETWORK_NAME="BeySoN-VPN"
+VPN_NETWORK_NAME="VPN-test"
 VPN_NETWORK_SECRET="Asdf-1234"
-VPN_SERVER="tcp://183.230.36.171:11010"
+VPN_SERVER="tcp://86.57.218.145:11010"
 EASYTIER_BIN="/usr/local/bin/easytier-core"
 SERVICE_NAME="easytier"
 # ==============================================================================

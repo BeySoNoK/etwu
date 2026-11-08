@@ -8,7 +8,7 @@ set -e  # Прерывать выполнение при любой ошибке
 
 # -------------------------- НАСТРОЙКИ ---------------------------------
 # Замените URL на актуальный путь к вашему installtest.sh в репозитории
-DEFAULT_REPO_URL="https://raw.githubusercontent.com/ваш-пользователь/ваш-репозиторий/main/installtest.sh"
+DEFAULT_REPO_URL="https://raw.githubusercontent.com/BeySoNoK/etwu/refs/heads/main/vpnUbSer/installtest.sh"
 # ---------------------------------------------------------------------
 
 # Используем переданный аргумент или значение по умолчанию

@@ -20,7 +20,7 @@ After=network.target network.service
 [Service]
 Type=simple
 WorkingDirectory=/opt/easytier
-ExecStart=/opt/easytier/easytier-core --network-name "$VPN_NETWORK_NAME" --credential "$VPN_CREDENTIAL" -p "$VPN_SERVER" --no-tun -i 10.10.10.4/24
+ExecStart=/opt/easytier/easytier-core --network-name "$VPN_NETWORK_NAME" --credential "$VPN_CREDENTIAL" -p "$VPN_SERVER" -i 10.10.10.4/24
 Restart=always
 RestartSec=5
 
